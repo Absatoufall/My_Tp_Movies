@@ -5,8 +5,6 @@ module.exports = mongoose => {
         synopsis: String,
         dateDeSortie: Date,
         director: String,
-        genre: String,
-        actors: [String],
       },
       { timestamps: true }
     );
