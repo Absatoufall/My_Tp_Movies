@@ -15,8 +15,6 @@ exports.create = (req, res) => {
         synopsis: req.body.synopsis,
         dateDeSortie: req.body.dateDeSortie,
         director: req.body.director,
-        genre: req.body.genre,
-        actors: req.body.actors,
     });
 
     // Enregistrement du film dans la BDD
