@@ -4,7 +4,6 @@ module.exports = mongoose => {
         title: String,
         synopsis: String,
         dateDeSortie: Date,
-        director: String,
       },
       { timestamps: true }
     );
